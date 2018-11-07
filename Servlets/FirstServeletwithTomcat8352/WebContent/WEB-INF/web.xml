@@ -1,0 +1,29 @@
+<web-app>  
+  
+<servlet>  
+<servlet-name>piotr</servlet-name>  
+<servlet-class>DemoServlet</servlet-class> 
+<load-on-startup>0<load-on-startup> 
+</servlet>  
+
+<servlet>
+<servlet-name>robert</servlet-name>
+<servlet-class>Firstservlet</servlet-class>
+<load-on-startup>1</load-on-startup>
+
+</servlet>
+  
+<servlet-mapping>  
+<servlet-name>piotr</servlet-name>  
+<url-pattern>/welcome</url-pattern>  
+</servlet-mapping>  
+
+<welcome-file-list>
+<welcome-file> home.html </welcome-file>
+<welcome-file> default.html </welcome-file>
+
+</welcome-file-list>
+  
+ 
+  
+</web-app>  

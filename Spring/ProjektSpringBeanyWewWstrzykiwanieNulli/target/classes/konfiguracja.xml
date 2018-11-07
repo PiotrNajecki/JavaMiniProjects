@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <!--<bean id="address" class="domain.Address" c:_0="Warszawa" c:_1="02-300" c:_2="Koszykowa">-->
+        <!--</bean>-->
+
+        <!--<bean id="user" class="domain.User" >-->
+            <!--<property name="name" value="Piotr" />-->
+            <!--<property name="address" ref="address" />-->
+        <!--</bean>-->
+
+        <!--<bean id="user" class="domain.User" >-->
+        <!--<property name="name" value="Piotr" />-->
+         <!--<property name="address" >-->
+             <!--<bean class="domain.Address" >-->
+             <!--<constructor-arg value="Warszawa" />-->
+             <!--<constructor-arg value="02-600" />-->
+             <!--<constructor-arg value="Koszykowa" />-->
+             <!--</bean>-->
+            <!--</property>-->
+        <!--</bean>-->
+
+
+        <bean name="user2" class="domain.User" >
+            <constructor-arg><null/></constructor-arg>
+
+        </bean>
+
+            </beans>

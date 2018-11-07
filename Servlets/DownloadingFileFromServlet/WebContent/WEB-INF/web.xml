@@ -1,0 +1,16 @@
+<web-app>
+<servlet>  
+<servlet-name>DownloadServlet</servlet-name>  
+<servlet-class>DownloadServlet</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>DownloadServlet</servlet-name>  
+<url-pattern>/downloadservlet1</url-pattern>  
+</servlet-mapping>  
+
+<welcome-file-list>
+<welcome-file></welcome-file>
+</welcome-file-list>
+  
+</web-app>  

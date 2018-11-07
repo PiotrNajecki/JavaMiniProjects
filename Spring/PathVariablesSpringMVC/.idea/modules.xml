@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pathvatiablesspringmvc.iml" filepath="$PROJECT_DIR$/pathvatiablesspringmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pathvatiablesspringmvc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pathvatiablesspringmvc_main.iml" group="pathvatiablesspringmvc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pathvatiablesspringmvc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pathvatiablesspringmvc_test.iml" group="pathvatiablesspringmvc" />
+    </modules>
+  </component>
+</project>

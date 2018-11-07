@@ -1,0 +1,16 @@
+<web-app>
+<servlet>
+<servlet-name>DisplayImage</servlet-name>
+<servlet-class>DisplayImage</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DisplayImage</servlet-name>
+<url-pattern>/servlet1</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>
+<welcom-file>index.html</welcom-file>
+
+</welcome-file-list>
+
+</web-app>

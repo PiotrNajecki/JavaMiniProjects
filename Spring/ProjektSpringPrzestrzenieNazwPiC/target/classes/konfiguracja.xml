@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <bean id = "someLocale" class = "java.util.Locale" factory-method="getDefault" />
+
+    <bean id="someUser" class="domain.User" >
+    <constructor-arg value="jan" />
+    <constructor-arg value="23" />
+    <constructor-arg ref="someLocale"/>
+    </bean>
+
+    <bean id="someBean" class="domain.SomeBean" >
+        <property name="intValue" value="34" />
+        <property name="stringValue" value="mojValue"/>
+        <property name="user" ref="someUser"/>
+
+    </bean>
+
+    <!--<bean id="someUser2" class="domain.User"-->
+          <!--c:name="janek" c:age="32" c:locale-ref="someLocale" />-->
+
+    <bean id="someUser2" class="domain.User"
+          c:_0="janek" c:_1="32" c:_2-ref="someLocale" />
+
+    <bean id="someBean2" class="domain.SomeBean"
+          p:stringValue="Piotr" p:intValue="32"  p:user-ref="someUser2" />
+
+</beans>
